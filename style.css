@@ -111,12 +111,12 @@ section.feat section.middle{
 }
 
 #slides{
-	width: 205px !important;
+	width: 242px !important;
 	height: 370px !important;
 }
 
 section.media img{
-	max-width: 205px !important;
+	max-width: 242px !important;
 }
 
 .slides_container{
