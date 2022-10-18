@@ -111,9 +111,8 @@ section.feat section.middle{
 }
 
 #slides{
-	width: 205px !important;
+	width: 242px !important;
 	height: 370px !important;
-	background: url('images/iphone_small.png') no-repeat !important;
 	padding: 74px 20px !important;
 }
 
