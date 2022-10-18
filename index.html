@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<script>
+  document.createElement('header');
+  document.createElement('section');
+  document.createElement('article');
+  document.createElement('aside');
+  document.createElement('nav');
+  document.createElement('footer');
+</script>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	
+<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.fitvids.js" type="text/javascript"></script>
+<script src="js/slides.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#wrapper").fitVids();	
+  });
+</script>
+
+<script>
+            $(function(){
+               $("#slides").slides({
+					play: 5000,
+					preload: true,
+					pagination: false,
+					generatePagination: false
+				});
+            });
+</script>
+
+<script type='text/javascript'>
+$(function(){$.fn.scrollToTop=function(){$(this).hide().removeAttr("href");if($(window).scrollTop()!="0"){$(this).fadeIn("slow")}var scrollDiv=$(this);$(window).scroll(function(){if($(window).scrollTop()=="0"){$(scrollDiv).fadeOut("slow")}else{$(scrollDiv).fadeIn("slow")}});$(this).click(function(){$("html, body").animate({scrollTop:0},"slow")})}});
+  $(function() {
+                $("#toTop").scrollToTop();
+            });
+</script>
+
+<title>Ela-Salaty - Muslim Prayer Times App</title>
+
+</head>
+<body>
+<div id="wrapper">
+	
+	<header>
+	
+			<section class="title">
+				<section class="content">
+					<a href="#" title=""><img src="images/icon.png" alt="Ela-Salaty" />
+					<h1>Ela-Salaty</h1></a>
+				</section><!-- content ENDS -->
+				
+				<section class="desc">
+					<h2>Muslim Prayer Times App</h2>
+					<p>The world’s most popular desktop Prayer-reminder app now brought onto your mobile device.
+						With all-new captivating features, “Ela-Salaty” is the next blockbuster prayer reminder you could ever wish to have. Because our lives should all center around our relationship with Allah, not vice versa, Ela-Salaty is here to assist you achieving just that.</p>
+					<a class="button appstore" href="https://apps.apple.com/app/id586106611" target="_blank" title="Available on the AppStore">Available on the AppStore</a>
+				</section><!-- desc ENDS -->
+			</section><!-- title ENDS -->
+			
+			<section class="media">
+				 <div id="slides">
+					 <div class="slides_container">
+						<div><img src="images/app1.png" alt="App Screenshot 1" /></div>
+						<div><img src="images/app2.png" alt="App Screenshot 2" /></div>
+						<div><img src="images/app3.png" alt="App Screenshot 3" /></div>
+					</div>
+				</div>
+			</section><!-- media ENDS -->
+	
+	</header><!-- header ENDS -->
+	
+	
+	<section class="video">
+		<div class="video_width"><iframe width="1280" height="640" src="https://www.youtube.com/embed/22dj083OWRk" title="نظرة على اهم مميزات تطبيق إلى صلاتي" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	</section><!-- video ENDS -->
+			
+	<section class="feat_outer">
+		<section class="feat">
+			<section>
+			<img src="images/feat1.png" alt="Feature 1" />
+			<h2>Home Widgets</h2>
+			<p>Quickly access prayer times and Islamic calendar right from your Home Screen</p>
+			</section>
+
+			<section class="middle">
+			<img src="images/feat2.png" alt="Feature 2" />
+			<h2>Qibla compass</h2>
+			<p>Easily find qibla direction from the app and notification alerts</p>
+			</section>
+		
+			<section>
+			<img src="images/feat3.png" alt="Feature 3" />
+			<h2>Apple Watch</h2>
+			<p>Seamless integration with Apple Watch, including a variety of complications</p>
+			</section>
+		</section><!-- feat ENDS -->
+		
+		<section class="getitnow">
+			<h2>Get it now!</h2>
+			<a class="button appstore" href="https://apps.apple.com/app/id586106611" target="_blank" title="Available on the AppStore">Available on the AppStore</a>			
+		</section><!-- social ENDS -->
+		
+		<section class="social">
+			<h2>Don't hesitate to contact us!</h2>
+			<a href="https://www.facebook.com/iphoneislam" title="Facebook"><span class="fb"></span></a>
+			<a href="https://twitter.com/iphoneislam" title="Twitter"><span class="twitter"></span></a>
+			<a href="mailto:info@iphoneislam.com?subject=Ela-Salaty App Website" title="Mail"><span class="mail"></span></a>
+		</section><!-- social ENDS -->
+		
+	</section><!-- feat_outer ENDS -->
+
+	<footer class="footer_outer">	
+		<section class="footer">
+			<p>&copy; 2022 Ela-Salaty App - By <a href="https://mimv.co">MIMV LLC.</a></p>
+		</section>
+	</footer><!-- outer ENDS -->
+	
+	<a href="#" id="toTop"><img src="images/top.png" alt="Go to Top" /></a>
+	
+</div><!-- wrapper ENDS -->
+</body>
+</html>
