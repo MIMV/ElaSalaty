@@ -79,7 +79,7 @@ section.video div.video_width{
 }
 
 header h1{
-	font-size: 3em !important;
+	font-size: 2em !important;
 }
 
 header, section.content, section.desc{
@@ -113,7 +113,6 @@ section.feat section.middle{
 #slides{
 	width: 205px !important;
 	height: 370px !important;
-	padding: 74px 20px !important;
 }
 
 section.media img{
@@ -189,7 +188,7 @@ section.content a img{
 header h1{
 	color: #8c8c8c;
 	text-shadow: 0 1px 3px rgba( 0, 0, 0, 0.3);
-	font-size: 5em;
+	font-size: 4em;
 	margin-top: 0.2em;
 }
 
@@ -226,7 +225,7 @@ section.desc h2{
 	font-weight: normal;
 	line-height: 36px;
 	color: #282828;
-	margin-top: 1em;
+	margin-top: 3em;
 }
 
 section.desc p{
